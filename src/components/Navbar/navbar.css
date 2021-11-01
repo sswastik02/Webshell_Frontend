@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+
+nav {
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #414345 15%,
+    #232526 40%
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #414345 15%,
+    #232526 40%
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  display: flex;
+  text-align: right;
+  flex-direction: row;
+  align-items: center;
+  height: 80px;
+  justify-content: flex-end;
+  top: 0;
+  position: sticky;
+  z-index: 999;
+}
+
+.User {
+  padding: 10px;
+  font-size: 1.5rem;
+  color: white;
+  margin-right: 20px;
+}
+.regbtncont,
+.loginbtncont,
+.logoutbtncont
+ {
+  width: 11rem;
+  align-items: center;
+  text-align: center;
+}
+.registerbtn,
+.loginbtn,
+.logoutbtn {
+  padding: 20px;
+  border-radius: 20px;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 1.3rem;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.registerbtn:hover,
+.loginbtn:hover,
+.logoutbtn:hover {
+  background-color: gray;
+  font-size: 1.5rem;
+}
+.logoutbtn:hover{
+  background-color: rgb(175, 0, 0);
+}
