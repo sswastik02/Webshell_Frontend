@@ -1,0 +1,62 @@
+.register{
+    background-color: rgb(58, 58, 58);
+    height: calc(100vh - 80px);
+    
+}
+.registerheading{
+    font-size: 4rem;
+    padding-top: 1rem;
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.registerForm{
+    margin-top: 10rem;
+    text-align: center;
+}
+.username, .password1, .password2{
+    margin-bottom: 10px;
+}
+.usernametext, .password1text, .password2text{
+    padding-right: 10px;
+    font-size: 1.5rem;
+    display: inline;
+    color: white;
+}
+.usernamefield, .password1field, .password2field{
+    background-color: transparent;
+    height: 2.5rem;
+    width: 15rem;
+    padding: 10px;
+    font-size: 1.8rem;
+    color: goldenrod;
+    margin-bottom: 10px;
+
+}
+.password2field{
+    margin-right: 6rem;
+}
+.registersubmit{
+    padding: 30px 150px;
+    background-color: transparent;
+    text-decoration: none;
+    border-start-end-radius: 30px;
+    border-end-end-radius: 30px;
+    border-start-start-radius: 30px;
+    border-end-start-radius: 30px;
+    border-color: beige;
+    border-style: solid;
+    color: white;
+    font-size: 1.5rem;
+    box-shadow: inset 0px 0px 0px #2F3B47;
+transition: all 0.2s !important;
+cursor: pointer;
+    
+}
+
+.registersubmit:hover{
+    box-shadow: inset 0px -100px 0px #2F3B47;
+    color:goldenrod;
+    border-color: goldenrod;
+}

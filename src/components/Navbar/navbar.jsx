@@ -12,10 +12,10 @@ class Navbar extends Component {
     return (this.props.user  === null) ? (
       <React.Fragment>
         <div className="regbtncont">
-          <button className="registerbtn">Register</button>
+          <button className="registerbtn" onClick={()=>this.props.handleShowLogin(false)}>Register</button>
         </div>
         <div className="loginbtncont">
-          <button className="loginbtn">Login</button>
+          <button className="loginbtn" onClick={()=>this.props.handleShowLogin(true)}>Login</button>
         </div>
       </React.Fragment>
     ) : (
